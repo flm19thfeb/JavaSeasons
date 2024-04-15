@@ -895,6 +895,152 @@ The field Bank.balance is not visible
 Day 9 : 12th Apr - Friday 
 ----------------------------------------------------- 
 
+Clock 
+
+hr,min,sec
+
+8 50 45
+
+8:50:45
+
+void java.io.PrintStream.println(String x)
+
+
+PrintStream
+
+4 methods 
+
+
+print this will print on console and cursors stays in same line 
+
+* * * * *
+* * * *
+* * *
+* * 
+*
+
+println this will print on console and moves the cursor to next line
+
+
+printf this will print the output in desired format 
+
+
+format
 
 
 
+this : 
+
+this is a keyword cum operator 
+
+used to refer current calling object reference 
+
+what is the need of "this" keyword ?
+
+when we have local variable names same as Instance variable names
+local variables dominates so avoid this situation we use "this" keyword
+
+-----------------------------------------------------
+Day 10 : 15th Apr - Monday 
+----------------------------------------------------- 
+
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+public void add(int x,int y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+	
+	public void addDouble(double x,double y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+	
+	public void addLong(long x,long y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+	
+	
+
+
+	public void add(int x,int y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+	
+	public void add(double x,double y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+	
+	public void add(long x,long y)
+	{
+		System.out.println("Sum is "+(x+y));
+	}
+
+
+Polymorphism : 
+
+Poly means many
+morphism means forms 
+
+
+							Polymorphism
+							
+			Static								Dynamic
+				or								  or
+			Compile time						Runtime
+				or									or
+			Early Binding						Late Binding
+		
+Note : here binding means linking (caller method and called method)		
+			
+			
+Static Polymorphism can be achived by means of method overloading 
+
+
+
+
+
+Terminology :
+
+method signature means MethodName + Arguments 		
+			
+method overloading 	: same method name with different method signature in the same class 
+
+  can be done by means :  with different datatypes (arguments)
+						  with change in no of arguments
+						  with change in order of arguments
+							
+							
+?????????????????????????????????????????????????????????
+Assignment 
+
+Create a class Aadhar 
+
+and overload method setAadhar print the Aadhar number in below format
+
+3124 5214 6984
+
+Hint : 
+
+
+double java.lang.Math.random()
+
+
+Returns a double value with a positive sign, greaterthan or equal to 0.0 and less than 1.0.
+Returned values are chosen pseudorandomly with (approximately)uniform distribution from that range. 
+
+System.out.println( (int)(Math.random()*10000));
+
+send your program/screenshots to below email id
+
+flmtechteam.testing@gmail.com
+
+??????????????????????????????????????????????????????????
+
+							
+							
+							

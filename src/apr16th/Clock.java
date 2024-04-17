@@ -1,26 +1,28 @@
-package apr15th;
+package apr16th;
 
 public class Clock {
 	
 	int hr,min,sec;
 	
-	public  Clock()
+	public Clock()
 	{
-		System.out.println("Entered into constructor");
+		hr=10;
+		min=10;
+		sec=10;
 	}
 	
-	public void setClock(int hr)
+	public Clock(int hr)
 	{
 		this.hr=hr;
 	}
 	
-	public void setClock(int hr,int min)
+	public Clock(int hr,int min)
 	{
 		this.hr=hr;
 		this.min=min;
 	}
 	
-	public void setClock(int hr,int min,int sec)
+	public Clock(int hr,int min,int sec)
 	{
 		this.hr=hr;
 		this.min=min;
@@ -32,5 +34,6 @@ public class Clock {
 		System.out.format("%02d:%02d:%02d",hr,min,sec);
 		System.out.println();
 	}
+	
 
 }

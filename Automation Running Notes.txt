@@ -1044,6 +1044,58 @@ flmtechteam.testing@gmail.com
 Constructor :
 
 
-							
+
+-----------------------------------------------------
+Day 11 : 16th Apr - Tuesday 
+----------------------------------------------------- 
+
+Constructor :
+
+is a method having same name as classname
+
+
+rules for contructor :
+
+1. constructor doesn't have return type
+
+Q: what happens if we mention return-type to constructor ?
+
+Ans : No error , it will be consider as a normal method 
+
+2. constructor doesn't have access-modifier 
+
+Q : what happens if we mention access-modifier  to constructor ?
+
+Ans : Compile time error 
+
+Illegal modifier for the constructor in type Clock; only public, protected & private are permitted
+
+
+3. We can't call Constructor explicitly 
+
+						
+							Constructor
+						
+			default 						paramaterized 
+				or
+			non-parameterized
+						
+default constructor means a constructor without any arguments
+			
+						
+						
+Note : 
+
+if there is no default contructor and other constructor's are present
+then you should choose any one from the available constructor's 
+
+
+**************************
+Inheritance
+**************************
+
+
+						
+						
 							
 							

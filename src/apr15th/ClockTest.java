@@ -6,6 +6,7 @@ public class ClockTest {
 		
 		//user1
 		Clock c1=new Clock();
+		//c1.Clock();
 		c1.setClock(9);
 		c1.getClock();
 		

@@ -2,8 +2,8 @@ package apr16th;
 
 public class Student {
 	
-	int rollNo;
-	String studentName;
+	protected int rollNo;
+	protected String studentName;
 	
 	public void setDetails(int rollNo,String studentName)
 	{

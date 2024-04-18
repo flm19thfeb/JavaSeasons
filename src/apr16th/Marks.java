@@ -17,4 +17,7 @@ public class Marks extends Student {
 		System.out.println("Total Marks "+(m1+m2+m3));
 	}
 	
+	
+	
+	
 }

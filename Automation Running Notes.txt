@@ -1095,7 +1095,17 @@ Inheritance
 **************************
 
 
+-----------------------------------------------------
+Day 12 : 17th Apr - Thursday 
+----------------------------------------------------- 
+
+	Marks extends Student
+
+Here Marks Child / derived /sub class 
+
+and Student Parent / Super class 	
 						
-						
-							
+Method Overiding : 
+
+Implementing the method of parent class in child class 						
 							

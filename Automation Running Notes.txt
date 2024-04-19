@@ -885,7 +885,7 @@ Encapsulation in Java is a process of wrapping code and data together into a sin
  for example, a capsule which is mixed of several medicines.
 
 
-	Encapsulation = Data Security + Abstraction		
+	Encapsulation = Data Hiding + Abstraction		
 	
 	
 The field Bank.balance is not visible
@@ -1108,4 +1108,62 @@ and Student Parent / Super class
 Method Overiding : 
 
 Implementing the method of parent class in child class 						
+							
+							
+
+
+-----------------------------------------------------
+Day 13 : 19th Apr - Friday 
+----------------------------------------------------- 
+
+							
+						Abstraction
+
+
+
+			Abstract Class					Interfaces 
+			
+			0 to 100 % abstraction				100% abstraction
+			
+			
+			
+This method requires a body instead of a semicolon
+
+Note : 
+Cannot instantiate the type Numbers
+means we can't create an object for Abstract Class 
+
+
+The type Sum must implement the inherited abstract method Numbers.compute(int, int)
+
+Abstract class :
+
+access-specifier abstract class ClassName
+{
+
+//abstract methods means methods without body 
+//concrete methods means methods with body 
+}
+
+
+Interface:
+
+access-specifier access-modifier interface InterfaceName
+{
+
+//constants
+
+Illegal modifier for the interface field MyInter.PI; only public, static & final are permitted
+
+//abstract methods 
+
+Abstract methods do not specify a body
+
+}					
+							
+						
+							
+							
+							
+							
 							

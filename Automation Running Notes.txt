@@ -1162,8 +1162,73 @@ Abstract methods do not specify a body
 }					
 							
 						
+*******************************************
+Season 2 
+
+
+				Flow Control  or Control Flow statements
+				
+	
+	Selection statements					Iterative or Loop       Transfer or Jump 
+	or 
+	Decission making statements
+	
+	i) if -else 						i) while()					i) break
+	ii) switch							ii) do while()				ii) continue
+										iii) for loop				iii) return
+										iv) for each loop 			iv) try-catch-finally
+																	v) Assert
 							
-							
-							
-							
-							
+if else statements :        
+
+
+<20000   10% 						20%
+
+>=20000 || <30000 20%				30%
+
+>=30000     30%						40%					
+
+
+if(condition1)
+{
+statements
+
+}
+else if(condition2)
+{
+
+statements
+}
+else 
+{
+}
+
+
+In Scanner Class :
+
+
+
+nextByte():byte 
+nextByte(int):byte
+nextDouble()
+nextFloat()
+nextInt():int 
+nextInt(int)
+nextLine()
+nextLong()
+nextLong(int)
+nextShort()
+nextShort(int)
+
+next():String
+
+
+ if(x>=0)
+		  { 
+			  System.out.println("x is +ve number");
+		  } 
+		  else 
+		  {
+		  System.out.println("x is -ve number"); 
+		  }
+		 

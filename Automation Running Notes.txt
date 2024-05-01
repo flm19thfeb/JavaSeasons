@@ -1231,4 +1231,178 @@ next():String
 		  {
 		  System.out.println("x is -ve number"); 
 		  }
+**************************************************
+Operators in Java 
+**************************************************
+
+operator is a special symbol which performs particular operation 
+
+
+
+						operators
+						
+						
+			unary					binary					ternary	
+
+
+operand : some value or variable name 			
+						
+						
+unary : ===> models 
+
+
+			post				pre 
+			
+			
+	++			--				++		--		
+	
+Binary operators:
+
+- arithmetic  / mathematical operators	
+
++ sum 
+- difference
+* product
+/ quotient after division
+% Modulus (remainder after division)
+
+
+1235 
+
+5321
+
+- Relational Operators or Comparision operators ==> o/p will be always boolean value 
+
+>  <  >=  <=  == !=
+
+
+- Logical Operators : to compare more than one comparisions 
+
+&& AND will return true only when all comparisions are true 
+
+|| OR piping symbol will false only when all comparisions are false 
+
+! Not negation 
+
+bitwise :
+
+  &     |    ~   ^    >>    << 
+  
+  
+  x=10  01010
+  y=20	10100
+  --------------
+		00000
+  x&y  ==> 0 
+  
+  x=10  01010
+  y=20	10100
+  --------------
+		11110
+  x|y  ==> 
+
+
+- Assignment operator
+
+		=   this means right-hand side value will be assigned or initalized to Left-hand side variable or constant
+		
+- short hand or short circuit
+
++= -=  *=  /=
+
+
+concatination operator: 
+
++ 
+
+
+
+new operator
+
+new ClassName();
+
+
+Ternary Operator:
+
+also called as Conditional Operator or Decission making 
+
+? :
+
+syntax:
+
+
+
+			expr1 ? 	expr2 :  expr3 
+
+		 condition		true	 false
+		 or				part	 part
+		 Comparision
 		 
+		 
+---------------------------------
+Control flow (cont...)
+
+switch case statement
+
+syntax:
+
+
+switch(expression/value)
+{
+
+case value1: 
+             statements
+			 break;
+			 
+case value2: 
+             statements
+			 break;
+			 :
+			 :
+			 
+case valuen: 
+			statements
+			break;
+default : 
+			statements;
+
+}		 
+		 
+
+switch will accept below datatypes 
+
+byte,short,int,char,String 
+
+switch will Not accept below datatypes 
+long,float,double,
+Cannot switch on a value of type long.
+Only convertible int values, strings or enum variables are permitted
+
+
+?????????????????????????????????????????????
+Assignment
+
+Take String as an input from console 
+As per string launch the browser 
+
+e.g 
+
+chrome ==> chrome browser should be launched 
+
+????????????????????????????????????????????????
+
+Iterative or Loop :
+
+
+while loop
+
+for loop 
+
+syntax : 
+
+
+for(intialize ; condition ; increment or decrement)
+{
+
+//statements
+}

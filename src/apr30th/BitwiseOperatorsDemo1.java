@@ -6,8 +6,8 @@ public class BitwiseOperatorsDemo1 {
 		
 		int x=10,y=20;
 		
-		System.out.println(x&y);
-		System.out.println(x|y);
+		System.out.println(x&y);//0
+		System.out.println(x|y);//30
 
 	}
 

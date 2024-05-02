@@ -1406,3 +1406,53 @@ for(intialize ; condition ; increment or decrement)
 
 //statements
 }
+
+
+intialize some value 
+
+while(condition)
+{
+
+//statements
+
+}
+
+
+----do while
+
+do
+{
+
+//statements
+
+
+}
+while(condition);
+
+
+break : this will break the loop and control comes out of flower braces 
+        or no other iterations will happens
+		
+continue : this will break the current iteration and next iteration will be excuted 
+
+--------------------------------------
+Arrays :
+
+
+int x=10,y=20;
+
+syntax 1 :
+
+
+for variable
+access-specifier access-modifier datatype variableName = value;
+
+for arrays : 
+
+access-specifier access-modifier datatype[] variableName = {value1,value2,...valuen};
+
+syntax 2 :
+
+using new operator
+
+access-specifier access-modifier datatype[] variableName=new datatype[size or length or no of items];

@@ -1456,3 +1456,79 @@ syntax 2 :
 using new operator
 
 access-specifier access-modifier datatype[] variableName=new datatype[size or length or no of items];
+
+Def : 
+array is collection of similar/homogenous data type items having fixed length 
+
+
+int[] a=new int[5];
+
+Limitation of Arrays :
+
+1) Arrays doesn't have growable 
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	at may3rd.LimitationOfArrays.main(LimitationOfArrays.java:14)
+
+2) Arrays doesn't allow dissimalr or hetrogenous datatypes
+
+
+Type mismatch: cannot convert from double to int
+
+Type mismatch: cannot convert from String to int
+
+3) no predefined methods avialable for programming purpose 
+
+
+-------------------------------
+Collections Framework or API 
+
+java.util 
+
+
+findElement(By):WebElement
+findElements(By):List<WebElement>
+
+getWindowHandle():String
+getWindowHandles():Set<String> 
+
+Methods in Collection(I) :
+
+add(E):boolean 
+
+this is used to add item or element to a collection class 
+
+E is an Element or item  of any datatype 
+
+contains(Object):boolean 
+
+this will search for an items and return true if found 
+
+isEmpty():boolean 
+
+this will check if the collection is empty or not 
+
+size():int 
+
+this will give no of items present in a collection 
+
+
+===============================
+Methods in List(I)
+
+add(int, E):void 
+
+get(int):E 
+
+here int is index of the element 
+
+syso(a[0]);
+
+syso(a.get(0));
+
+
+
+
+
+
+

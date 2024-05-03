@@ -2,11 +2,11 @@ package apr8th;
 
 public class Person {
 	
-	String name;
+	public String name;
 	
-	int age;
+	public int age;
 	
-	long phone;
+	public long phone;
 	
 	public void greet()
 	{

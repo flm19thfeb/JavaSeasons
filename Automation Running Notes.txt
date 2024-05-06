@@ -1520,15 +1520,82 @@ add(int, E):void
 
 get(int):E 
 
-here int is index of the element 
+here int is index of the element
+
+iterator():Iterator<E> 
 
 syso(a[0]);
 
 syso(a.get(0));
 
 
+----------------------------------------------
+Methods In ArrayList (C)  implements List(I) 
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
 
 
+add(E):boolean 
+
+contains(Object):boolean 
+
+add(int, E):void 
+
+get(int):E 
+
+size():int 
+
+To retrieve items in ArrayList : 
+we can use 
+
+i) normal for loop using 
+
+get(int)
+
+ii) using for each loop or Enhanced Loop : 
+
+for(Datatype temp:arrayName or CollectionName)
+{
+
+//use temp 
+
+}
+
+=======================================
+
+Set(I):
+
+add(E):boolean 
+contains(Object):boolean 
+isEmpty():boolean 
+size():int 
+iterator():Iterator<E>
 
 
+------------------------------
+HashSet(C) implements Set(I)
+
+HashSet()
+HashSet(int)
+HashSet(int, float)
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
+
+default initial capacity (16) and load factor (0.75).
+
+
+How to retrieve items from HashSet ??
+
+i) using for each loop or Enhanced Loop : 
+
+for(Datatype temp:arrayName or CollectionName)
+{
+
+//use temp 
+
+}
+
+ii) Using Iterator 
 

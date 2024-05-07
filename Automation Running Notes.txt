@@ -1599,3 +1599,96 @@ for(Datatype temp:arrayName or CollectionName)
 
 ii) Using Iterator 
 
+
+=========================================
+ArrayList  vs HashSet 
+
+
+				ArrayList							HashSet
+				
+i) implements List Interface					i) implements Set Interface
+
+ii) what DataStructure ?
+resizable Array								ii) what DataStructure ?
+														HAshMap 
+
+iii) Ordered Collection 						iii) UnOrdered Collection 
+
+why ?												 why or what it uses ?
+
+elemnts will get stored based on index				 Hashing Techniques to avoid duplicates
+
+iv) Duplicates are allowed 						iv) Duplicates are not allowed 
+										           Q : what happens if we add a duplicate to HashSet ?
+												   Ans : Element won't get added to collection		
+												    add method will just return boolean false 
+												   
+=======================================================================
+Exceptions or Exception Handling 
+
+
+Runtime Error is nothing but exception 
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at may7th.ExceptionDemo1.main(ExceptionDemo1.java:20)
+	
+	
+try  catch 	finally  throws  throw 
+
+
+try
+{
+//risky code 
+
+}
+catch(SomeExceptionClass reference)
+{
+
+//handling code 
+or
+//user friendly code 
+
+}
+
+Exception Hiererchy :
+
+
+
+Methods in Thowable Class which is Pareant of Exception class and ancestor of other Exception classes 
+
+
+getMessage():String 
+
+printStackTrace():void 
+
+
+
+								Exceptions 
+								
+			Checked Exceptions								UnChecked Exceptions 
+
+     if   Compiler checks and find the exceptions		
+								
+								
+try catch finally combinations :
+
+finally is a block which you can write some mandate code 		
+
+
+try catch
+
+try finally 
+
+try catch finally 
+
+try catch catch     (when multiple catches are there then you should follow bottom to top hierechy)
+
+try catch catch finally 					
+
+	
+throws to handle CheckedExceptions	
+	
+											   
+throw :
+
+for Custom or userdefined Exception 												   
